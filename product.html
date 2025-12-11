@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Roti Alit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Roti Alit</h1>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html" class="active">PRODUCT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="career.html">CAREER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Produk Kami</h1>
+            <p class="breadcrumb"><a href="index.html">Home</a> > Products</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <!-- Products Section -->
+<!-- Products Section -->
+<section class="products-section">
+    <div class="container">
+        <div class="products-intro">
+            <h2>Pilih Kategori Produk</h2>
+            <p>Temukan berbagai produk berkualitas tinggi yang dibuat fresh setiap hari dengan bahan-bahan premium pilihan. Pilih kategori untuk melihat produk kami.</p>
+        </div>
+
+        <!-- Category Selection (Initial View - BESAR) -->
+        <div class="category-selection" id="categorySelection">
+            <div class="category-card" data-category="roti-alit">
+                <div class="category-icon">🍞</div>
+                <h3>Roti Alit</h3>
+                <p>Roti artisan autentik yang menjadi menu andalan</p>
+                <div class="category-arrow">→</div>
+            </div>
+
+            <div class="category-card" data-category="alit-snacks">
+                <div class="category-icon">🥐</div>
+                <h3>Alit Snacks</h3>
+                <p>Camilan lezat untuk teman santai</p>
+                <div class="category-arrow">→</div>
+            </div>
+
+            <div class="category-card" data-category="oleh-oleh">
+                <div class="category-icon">🎁</div>
+                <h3>Oleh-oleh Alit</h3>
+                <p>Pilihan buah tangan khas penuh rasa</p>
+                <div class="category-arrow">→</div>
+            </div>
+        </div>
+
+        <!-- Back Button (Hidden initially) -->
+        <button class="back-to-categories" id="backButton" style="display: none;">
+            ← Kembali ke Kategori
+        </button>
+
+        <!-- KATEGORI 1: ROTI ALIT -->
+        <div class="product-category-content" id="roti-alit">
+            <div class="category-header">
+                <h2>🍞 Roti Alit</h2>
+                <p>Roti artisan autentik yang menjadi menu andalan</p>
+            </div>
+
+            <div class="products-display">
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/coklat fix.jpg"style= "object-position: center 30%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Roti Alit Coklat</h3>
+                        <p class="product-description">Roti lembut dengan isian coklat premium yang melimpah dan lezat. Rasanya manis yang pas, sangat cocok dinikmati kapan saja.</p>
+                        <ul class="product-features">
+                            <li>✓ Coklat Premium</li>
+                            <li>✓ Roti Lembut Setiap Hari</li>
+                            <li>✓ Manisnya Pas</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <a href="https://wa.me/6285781169656?text=Halo,%20saya%20ingin%20order%20Roti%20Alit" target="blank" class="btn-primary" style="display: inline-block; text-align: center;">Order Sekarang</a>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/Pisang coklat.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pisang Coklat Alit</h3>
+                        <p class="product-description">Perpaduan sempurna pisang segar dan lelehan coklat manis dalam balutan roti yang empuk.</p>
+                        <ul class="product-features">
+                            <li>✓ Pisang Segar Pilihan</li>
+                            <li>✓ Isian Coklat Lumer</li>
+                            <li>✓ Tekstur Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/Sosis keju alit.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sosis Keju Alit</h3>
+                        <p class="product-description">Roti gurih dengan isian sosis sapi premium dan taburan keju cheddar yang menggugah selera.</p>
+                        <ul class="product-features">
+                            <li>✓ Sosis Sapi Premium</li>
+                            <li>✓ Keju Cheddar Asli</li>
+                            <li>✓ Roti Gurih dan Empuk</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                    
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/abon.jpg"style= "object-position: center 30%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Abon Alit</h3>
+                        <p class="product-description">Roti dengan olesan mayones dan taburan abon sapi yang gurih dan berlimpah. Rasa klasik yang selalu dicari.</p>
+                        <ul class="product-features">
+                            <li>✓ Abon Sapi Kualitas Terbaik</li>
+                            <li>✓ Mayones Creamy</li>
+                            <li>✓ Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/c crunchy.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Coklat Crunchy</h3>
+                        <p class="product-description">Roti dengan isian coklat yang manis dan krispi, memberikan sensasi renyah di setiap gigitan.</p>
+                        <ul class="product-features">
+                            <li>✓ Coklat Spesial Crunchy</li>
+                            <li>✓ Tekstur Renyah</li>
+                            <li>✓ Roti Manis</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/cc.jpg"style= "object-position: center 25%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cookies and Cream Alit</h3>
+                        <p class="product-description">Perpaduan krim manis dan remahan biskuit coklat dalam balutan roti yang lembut.</p>
+                        <ul class="product-features">
+                            <li>✓ Krim Manis Biskuit</li>
+                            <li>✓ Remahan Biskuit Asli</li>
+                            <li>✓ Roti Lembut dan Creamy</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/dur.jpg"style= "object-position: center 30%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Durian Alit</h3>
+                        <p class="product-description">Roti dengan isian krim durian asli yang harum dan lembut. Kenikmatan rasa durian yang otentik.</p>
+                        <ul class="product-features">
+                            <li>✓ Krim Durian Asli</li>
+                            <li>✓ Aroma Durian Harum</li>
+                            <li>✓ Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/cgh.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Keju Alit</h3>
+                        <p class="product-description">Roti lembut dengan isian krim keju manis dan taburan keju cheddar yang melimpah di atasnya.</p>
+                        <ul class="product-features">
+                            <li>✓ Krim Keju Premium</li>
+                            <li>✓ Keju Cheddar Melimpah</li>
+                            <li>✓ Roti Lembut dan Creamy</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/pv.jpg"style= "object-position: center 28%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pisang Vanilla Alit</h3>
+                        <p class="product-description">Roti empuk dengan isian pisang segar dan krim vanilla yang manis dan wangi.</p>
+                        <ul class="product-features">
+                            <li>✓ Pisang Segar Pilihan</li>
+                            <li>✓ Krim Vanilla Lembut</li>
+                            <li>✓ Aroma Wangi</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/sri.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Srikaya Manis Alit</h3>
+                        <p class="product-description">Roti dengan selai srikaya buatan rumahan yang manis dan beraroma khas.</p>
+                        <ul class="product-features">
+                            <li>✓ Selai Srikaya Tradisional</li>
+                            <li>✓ Manis dan Aromatik</li>
+                            <li>✓ Roti Empuk</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/kh.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kacang Hijau Alit</h3>
+                        <p class="product-description">Roti dengan isian pasta kacang hijau manis yang lembut dan bertekstur.</p>
+                        <ul class="product-features">
+                            <li>✓ Pasta Kacang Hijau Premium</li>
+                            <li>✓ Manis Alami</li>
+                            <li>✓ Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/pk.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pisang Keju Alit</h3>
+                        <p class="product-description">Perpaduan manis pisang segar dan gurihnya keju dalam roti yang lezat.</p>
+                        <ul class="product-features">
+                            <li>✓ Pisang Segar Pilihan</li>
+                            <li>✓ Keju Cheddar</li>
+                            <li>✓ Kombinasi Manis Gurih</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/nanas.jpg"style= "object-position: center 40%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Nanas Alit</h3>
+                        <p class="product-description">Roti dengan selai nanas segar yang memiliki rasa manis asam yang menyegarkan.</p>
+                        <ul class="product-features">
+                            <li>✓ Selai Nanas Segar</li>
+                            <li>✓ Rasa Manis Asam</li>
+                            <li>✓ Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/bc.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Buttercream Cheese Alit</h3>
+                        <p class="product-description">Roti lembut yang dilapisi buttercream manis dan taburan keju parut gurih.</p>
+                        <ul class="product-features">
+                            <li>✓ Buttercream Premium</li>
+                            <li>✓ Keju Parut Melimpah</li>
+                            <li>✓ Kombinasi Creamy Gurih</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/ss.jpg"style= "object-position: center 25%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Susu Alit</h3>
+                        <p class="product-description">Roti manis yang diisi dengan krim susu vanilla yang lembut dan lumer di mulut.</p>
+                        <ul class="product-features">
+                            <li>✓ Krim Susu Vanilla</li>
+                            <li>✓ Roti Manis</li>
+                            <li>✓ Tekstur Creamy</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/kac coklat.jpg"style= "object-position: center 20%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kacang Coklat Alit</h3>
+                        <p class="product-description">Roti dengan isian coklat lumer dan taburan kacang yang memberikan sensasi renyah.</p>
+                        <ul class="product-features">
+                            <li>✓ Coklat Premium</li>
+                            <li>✓ Kacang Sangrai</li>
+                            <li>✓ Manis dan Crunchy</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/bccc.jpg"style= "object-position: center 24%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Buttercream Chocolate</h3>
+                        <p class="product-description">Roti lembut yang dilapisi buttercream coklat yang manis dan kaya rasa.</p>
+                        <ul class="product-features">
+                            <li>✓ Buttercream Coklat</li>
+                            <li>✓ Rasa Coklat Intens</li>
+                            <li>✓ Roti Lembut</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 20.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- KATEGORI 2: ALIT SNACKS -->
+        <div class="product-category-content" id="alit-snacks">
+            <div class="category-header">
+                <h2>🥐 Alit Snacks</h2>
+                <p>Pastry dan snacks lezat untuk menemani hari Anda</p>
+            </div>
+
+            <div class="products-display">
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/batagor.jpg"style= "object-position: center 50%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Siomay & Batagor</h3>
+                        <p class="product-description">Siomay ikan premium yang dikukus sempurna, dibuat dari daging ikan segar, bertekstur kenyal dan padat. Batagor: Batagor ikan yang digoreng hingga garing keemasan. Keduanya disajikan bersama bumbu kacang yang kental, manis, dan pedas.</p>
+                        <ul class="product-features">
+                            <li>✓ Ikan Segar Pilihan</li>
+                            <li>✓ Siomay Kukus Kenyal</li>
+                            <li>✓ Batagor Goreng Garing</li>
+                            <li>✓ Bumbu Kacang Kental</li>
+                        </ul>
+                        <span class="price-large">Rp 28.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/asinan kiamboy.jpg"style= "object-position: center 60%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Asinan Kiamboy</h3>
+                        <p class="product-description">Minuman segar yang memadukan kiamboy (buah plum kering) yang diasinkan dengan kuah manis, asam, dan sedikit pedas. Rasa yang menyegarkan dahaga dan membangkitkan selera.</p>
+                        <ul class="product-features">
+                            <li>✓ Buah Kiamboy Asli</li>
+                            <li>✓ Kuah Segar Manis Asam</li>
+                            <li>✓ Tanpa Pemanis Buatan</li>
+                            <li>✓ Segar Dingin</li>
+                        </ul>
+                        <span class="price-large">Rp 28.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/pastel.jpg"style= "object-position: center 60%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pastel Ayam</h3>
+                        <p class="product-description">Pastel renyah dengan kulit tipis yang dibentuk cantik, berisi tumisan daging ayam cincang gurih, telur, dan bumbu spesial.</p>
+                        <ul class="product-features">
+                            <li>✓ Isian Ayam Cincang Premium</li>
+                            <li>✓ Kulit Pastel Renyah</li>
+                            <li>✓ Bumbu Gurih Khas</li>
+                            <li>✓ Digoreng Harian</li>
+                        </ul>
+                        <span class="price-large">Rp 30.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/pastel.jpg"style= "object-position: center 60%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pastel Sayur</h3>
+                        <p class="product-description">Pastel dengan isian tumisan sayuran segar seperti wortel dan kentang yang dibumbui secara pas. Menawarkan rasa gurih dan tekstur yang lembut di dalam.</p>
+                        <ul class="product-features">
+                            <li>✓ Sayuran Segar Pilihan</li>
+                            <li>✓ Isian Gurih dan Lembut</li>
+                            <li>✓ Kulit Pastel Renyah</li>
+                            <li>✓ Digoreng Harian</li>
+                        </ul>
+                        <span class="price-large">Rp 32.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+                 <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/pia alit.jpg"style= "object-position: center 90%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pia Alit</h3>
+                        <p class="product-description">Kue pia mini dengan kulit berlapis tipis yang renyah dan isian pasta manis yang lembut. Tersedia dalam berbagai varian rasa.</p>
+                        <ul class="product-features">
+                            <li>✓ Kulit Pia Berlapis</li>
+                            <li>✓ Tekstur Renyah</li>
+                            <li>✓ Isian Pasta Manis</li>
+                            <li>✓ Fresh Daily</li>
+                        </ul>
+                        <span class="price-large">Rp 32.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- KATEGORI 3: OLEH-OLEH ALIT -->
+        <div class="product-category-content" id="oleh-oleh">
+            <div class="category-header">
+                <h2>🎁 Oleh-oleh Alit</h2>
+                <p>Paket spesial dan hampers untuk oleh-oleh dan hadiah istimewa</p>
+            </div>
+
+            <div class="products-display">
+                <div class="product-card-large">
+                    <div class="product-image-large">
+                        <img src="images/Oleh-oleh alit.jpg"style= "object-position: center 90%;"style="object-fit: cover;";>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kue Nona Manis</h3>
+                        <p class="product-description">Kue basah tradisional berlapis dengan dua cita rasa yang berpadu sempurna. Lapisan bawah pandan yang manis dan harum, dipadukan dengan lapisan atas santan yang gurih dan creamy.</p>
+                        <ul class="product-features">
+                            <li>✓ Lapisan Santan Gurih</li>
+                            <li>✓ Aroma Pandan Asli</li>
+                            <li>✓ Tekstur Lembut dan Kenyal</li>
+                            <li>✓ Dibuat Harian</li>
+                        </ul>
+                        <span class="price-large">Rp 250.000</span>
+                        <button class="btn-primary">Order Sekarang</button>
+                    </div>
+                </div>
+
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Roti Alit</h3>
+                    <p>Roti Artisan Premium dengan Cita Rasa Autentik</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p>Phone: (0232) 613170</p>
+                    <p>Alamat: Kuningan, Cirebon</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Roti Alit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Roti Alit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Roti Alit</h1>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="career.html">CAREER</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Hubungi Kami</h1>
+            <p class="breadcrumb"><a href="index.html">Home</a> > Contact</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-intro">
+                <h2>Mari Terhubung</h2>
+                <p>Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan, saran, atau ingin melakukan pemesanan khusus, jangan ragu untuk menghubungi kami melalui form di bawah ini atau melalui kontak langsung.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <h3>Kirim Pesan</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap *</label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama lengkap Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="contoh@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+62 812-xxxx-xxxx">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Pilih subjek</option>
+                                <option value="general">Pertanyaan Umum</option>
+                                <option value="order">Pemesanan Khusus</option>
+                                <option value="catering">Catering & Event</option>
+                                <option value="partnership">Kerjasama Bisnis</option>
+                                <option value="feedback">Feedback & Saran</option>
+                                <option value="complaint">Keluhan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-submit">Kirim Pesan</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-container">
+                    <h3>Informasi Kontak</h3>
+                    
+                    <div class="info-block">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>Alamat Kantor Pusat</h4>
+                            <p>Jl. Raya Bakery No. 123<br>Jakarta Barat 11470<br>Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h4>Telepon</h4>
+                            <p>Customer Service: (0232) 613170<br>WhatsApp:  0823-2157-7701</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">🕐</div>
+                        <div class="social-media"><h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/rotialit_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn" >Instagram</a>
+                        <a href="https://www.tiktok.com/@rotialit_?is_from_webapp=1&sender_device=pc" class="social-btn">TikTok</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-orders">
+            <h3>Pemesanan Khusus & Catering</h3>
+            <p>Kami melayani pemesanan khusus untuk berbagai acara seperti:</p>
+            <div class="services-list">
+                <div class="service-item">🎂 Wedding Cake & Dessert Table</div>
+                <div class="service-item">🎉 Birthday Party Catering</div>
+                <div class="service-item">🏢 Corporate Event & Meeting</div>
+                <div class="service-item">🎁 Hampers & Gift Box</div>
+                <div class="service-item">📦 Bulk Order untuk Reseller</div>
+            </div>
+            <p class="note">*Minimal order 3 hari sebelum acara. Hubungi kami untuk konsultasi gratis!</p>
+        </div>
+
+        <div class="faq-section">
+            <h3>Pertanyaan yang Sering Diajukan</h3>
+            <div class="faq-item">
+                <h4>Apakah produk Roti Alit halal?</h4>
+                <p>Ya, semua produk kami telah tersertifikasi halal oleh MUI.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Berapa lama ketahanan produk?</h4>
+                <p>Produk fresh kami best consumed dalam 2-3 hari. Simpan di tempat sejuk dan kering atau refrigerator untuk ketahanan lebih lama.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Apakah bisa custom order?</h4>
+                <p>Tentu! Kami menerima custom order untuk cake, pastry, dan bread. Hubungi kami minimal 3 hari sebelumnya.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Apakah tersedia delivery?</h4>
+                <p>Ya, kami tersedia di GoFood, GrabFood, dan ShopeeFood. Kami juga melayani delivery untuk catering dan bulk order.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Roti Alit</h3>
+                <p>Roti Artisan Premium dengan Cita Rasa Autentik</p>
+            </div>
+            <div class="footer-section">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Kontak</h4>
+                <p>Phone: (0232) 613170</p>
+                <p>Alamat: Kuningan, Cirebon</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Roti Alit. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
